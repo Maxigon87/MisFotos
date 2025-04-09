@@ -49,7 +49,21 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background:#ffffff;
+  background-image: linear-gradient(
+    to right bottom,
+    #ffffff,
+    #f7f6fd,
+    #edeefb,
+    #e3e6f9,
+    #d7dff7,
+    #d7dff7,
+    #d7dff7,
+    #d7dff7,
+    #e3e6f9,
+    #edeefb,
+    #f7f6fd,
+    #ffffff
+  );
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
@@ -9019,3 +9033,8 @@ fieldset:disabled .btn {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+.borde-blanco {
+  border: 2px solid white;
+  border-radius: 8px; /* Opcional, para que se vea más suave */
+  padding: 5px; /* Opcional, para que no se pegue el contenido al borde */
+}
